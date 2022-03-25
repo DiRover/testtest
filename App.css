@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-menu {
+  margin-bottom: 30px;
+}
+
+.btn-list {
+  margin-left: 30px;
+}
+
+.items-page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.item-container {
+  margin: 20px auto;
+  display: flex;
+}
+
+.picture {
+  width: 100px;
+}
+
+.item-description {
+  margin-left: 20px;
+}
+
+.vehicle-name {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+.price-box {
+  display: flex;
+}
+
+.price-text {
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.price-disc {
+  text-decoration: line-through;
+}
